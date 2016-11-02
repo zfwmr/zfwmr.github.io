@@ -1,4 +1,12 @@
 baseurl = "http://zfwmr.github.io/"
 title = "wmr"
-languageCode = "en-us"
+languageCode = "zh-cn"
 theme = "hugo-theme-crisp"
+
+[params]
+    description = "痛苦让人成长"
+    email = "zf@bupt.edu.cn"
+    hostname = "geekgo.me"
+[permalinks]
+    post = "/:year/:title/"
+    addendum = "/addendum/:year/:title/"
