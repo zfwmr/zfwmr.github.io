@@ -1,0 +1,28 @@
+language: go
+
+go:
+    - 1.6
+
+env:
+    global:
+        - SSH_KEY="zfwmr"
+        - GIT_NAME="zf@bupt.edu.cn"
+        - GIT_EMAIL="zf@bupt.edu.cn"
+        - SOURCE_DIR="public"
+        - DEPLOY_BRANCH="source"
+git:
+    submodules: false
+
+before_install:
+    - openssl aes-256-cbc -K $encrypted_b37d26c66aa0_key -iv $encrypted_b37d26c66aa0_iv -in zfwmr.enc -out zfwmr -d
+
+install:
+    - go get -u -v github.com/spf13/hugo
+
+script:
+    - git https://github.com/alexurquhart/hugo-geo.git ./themes/hugo-geo
+    - hugo
+
+after_success:
+    - echo "zfwmr.github.io" > ./public/CNAME
+    - ./scripts/deploy.sh
