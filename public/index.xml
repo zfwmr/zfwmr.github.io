@@ -5,16 +5,16 @@
     <link>http://zfwmr.github.io/index.xml</link>
     <description>Recent content on wmr</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
     <lastBuildDate>Wed, 02 Nov 2016 18:01:24 +0800</lastBuildDate>
     <atom:link href="http://zfwmr.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>new</title>
-      <link>http://zfwmr.github.io/post/new/</link>
+      <link>http://zfwmr.github.io/2016/new/</link>
       <pubDate>Wed, 02 Nov 2016 18:01:24 +0800</pubDate>
       
-      <guid>http://zfwmr.github.io/post/new/</guid>
+      <guid>http://zfwmr.github.io/2016/new/</guid>
       <description></description>
     </item>
     
