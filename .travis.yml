@@ -16,8 +16,7 @@ before_install:
 install:
 - go get -u -v github.com/spf13/hugo
 script:
-- git clone https://github.com/alexurquhart/hugo-geo.git ./themes/hugo-geo
-- hugo
+- hugo --theme=hugo-geo 
 after_success:
 - echo "zfwmr.github.io" > ./public/CNAME
 - ./scripts/deploy.sh
