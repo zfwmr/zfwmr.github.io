@@ -5,7 +5,7 @@ go:
 
 env:
     global:
-        - SSH_KEY="zfwmr"
+        - SSH_KEY="id_rsa"
         - GIT_NAME="zf@bupt.edu.cn"
         - GIT_EMAIL="zf@bupt.edu.cn"
         - SOURCE_DIR="public"
@@ -14,7 +14,7 @@ git:
     submodules: false
 
 before_install:
-    - openssl aes-256-cbc -K $encrypted_b37d26c66aa0_key -iv $encrypted_b37d26c66aa0_iv -in zfwmr.enc -out zfwmr -d
+    - openssl aes-256-cbc -K $encrypted_b37d26c66aa0_key -iv $encrypted_b37d26c66aa0_iv -in id_rsa.enc -out id_rsa -d
 
 install:
     - go get -u -v github.com/spf13/hugo
