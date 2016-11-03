@@ -1,7 +1,7 @@
 baseurl = "http://zfwmr.github.io/"
 title = "wmr"
 languageCode = "zh-cn"
-theme = "hyde-x"
+theme = "hugo-theme-crisp"
 
 [params]
     description = "痛苦让人成长"
