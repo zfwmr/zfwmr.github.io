@@ -1,6 +1,6 @@
 +++
 title = "hard"
-draft = true
+draft = false 
 date = "2016-11-02T22:40:17+08:00"
 
 +++
