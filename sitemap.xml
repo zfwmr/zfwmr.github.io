@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://zfwmr.github.io/2016/hugo_blog_process/</loc>
+    <lastmod>2016-11-28T11:59:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zfwmr.github.io/2016/hard/</loc>
+    <lastmod>2016-11-02T22:40:17+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zfwmr.github.io/post/</loc>
+    <lastmod>2016-11-28T11:59:53+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zfwmr.github.io/</loc>
+    <lastmod>2016-11-28T11:59:53+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
