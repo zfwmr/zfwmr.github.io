@@ -1,4 +1,4 @@
-baseurl = "http://zfwmr.github.io/"
+baseurl = "https://zfwmr.github.io/"
 title = "wmr"
 languageCode = "zh-cn"
 theme = "hyde"

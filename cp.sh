@@ -29,6 +29,7 @@ cd /Users/didi/Downloads/github_repo/zfwmr.github.io
 # 使用账号的方式，之前使用ssh的方式key有问题
 #
 # 最后git pull 一下 
+# git push -f 使用force参数强制push
 
 
 #change theme 重新生成，先rm -rf 掉老的public目录
@@ -37,3 +38,5 @@ cd /Users/didi/Downloads/github_repo/zfwmr.github.io
 # hugo  直接执行 
 ## 根据配置文件直接生成public目录的文件
 
+
+## 页面样式没出来的原因是baseurl写的是http，请求被阻止了，改为https就ok了
