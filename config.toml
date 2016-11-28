@@ -1,14 +1,17 @@
 baseurl = "https://zfwmr.github.io/"
 title = "wmr"
 languageCode = "zh-cn"
-theme = "hyde"
+##theme = "hyde"
+##theme = "hugo-alabaster-theme"
+##theme = "next"
+theme = "hugo-theme-next"
 
 [params]
-	themeColor = "theme-base-0c"
+##	themeColor = "theme-base-0c"
 ##	logo      = "/images/logo.jpg"
     description = "痛苦让人成长"
     email = "zf@bupt.edu.cn"
-    hostname = "geekgo.me"
+    hostname = "pyto.ml"
 [permalinks]
     post = "/:year/:title/"
     addendum = "/addendum/:year/:title/"
